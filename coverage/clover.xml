@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1506839818512" clover="3.2.0">
+  <project timestamp="1506839818513" name="All files">
+    <metrics statements="57" coveredstatements="57" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1" elements="72" coveredelements="72" complexity="0" loc="57" ncloc="57" packages="1" files="1" classes="1">
+      <file name="hm.js" path="/Users/sashank/Projects/hashmap/src/hm.js">
+        <metrics statements="57" coveredstatements="57" conditionals="14" coveredconditionals="14" methods="1" coveredmethods="1"/>
+        <line num="8" count="5630" type="stmt"/>
+        <line num="9" count="5630" type="stmt"/>
+        <line num="10" count="5630" type="stmt"/>
+        <line num="20" count="18" type="stmt"/>
+        <line num="21" count="18" type="stmt"/>
+        <line num="22" count="18" type="stmt"/>
+        <line num="23" count="18" type="stmt"/>
+        <line num="27" count="26654" type="stmt"/>
+        <line num="28" count="26654" type="cond" truecount="2" falsecount="0"/>
+        <line num="30" count="26653" type="stmt"/>
+        <line num="31" count="96916" type="stmt"/>
+        <line num="33" count="96916" type="stmt"/>
+        <line num="34" count="96916" type="stmt"/>
+        <line num="37" count="26653" type="stmt"/>
+        <line num="41" count="26653" type="stmt"/>
+        <line num="45" count="14634" type="stmt"/>
+        <line num="46" count="14634" type="stmt"/>
+        <line num="48" count="14634" type="stmt"/>
+        <line num="49" count="14634" type="stmt"/>
+        <line num="50" count="12322" type="cond" truecount="2" falsecount="0"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="55" count="12320" type="stmt"/>
+        <line num="58" count="14632" type="cond" truecount="2" falsecount="0"/>
+        <line num="59" count="9002" type="stmt"/>
+        <line num="62" count="5630" type="stmt"/>
+        <line num="63" count="5630" type="stmt"/>
+        <line num="64" count="5630" type="stmt"/>
+        <line num="65" count="5630" type="stmt"/>
+        <line num="67" count="5630" type="stmt"/>
+        <line num="71" count="1015" type="stmt"/>
+        <line num="73" count="1015" type="stmt"/>
+        <line num="74" count="1015" type="stmt"/>
+        <line num="75" count="1679" type="cond" truecount="2" falsecount="0"/>
+        <line num="76" count="1013" type="stmt"/>
+        <line num="78" count="666" type="stmt"/>
+        <line num="81" count="2" type="stmt"/>
+        <line num="85" count="11004" type="stmt"/>
+        <line num="86" count="11004" type="stmt"/>
+        <line num="88" count="11004" type="cond" truecount="2" falsecount="0"/>
+        <line num="89" count="4367" type="stmt"/>
+        <line num="92" count="6637" type="cond" truecount="2" falsecount="0"/>
+        <line num="93" count="1538" type="stmt"/>
+        <line num="94" count="1538" type="stmt"/>
+        <line num="95" count="1538" type="stmt"/>
+        <line num="96" count="1538" type="stmt"/>
+        <line num="99" count="5099" type="stmt"/>
+        <line num="100" count="5099" type="stmt"/>
+        <line num="101" count="5099" type="stmt"/>
+        <line num="102" count="4848" type="cond" truecount="2" falsecount="0"/>
+        <line num="103" count="463" type="stmt"/>
+        <line num="104" count="463" type="stmt"/>
+        <line num="105" count="463" type="stmt"/>
+        <line num="107" count="4385" type="stmt"/>
+        <line num="108" count="4385" type="stmt"/>
+        <line num="111" count="4636" type="stmt"/>
+        <line num="115" count="5" type="stmt"/>
+      </file>
+    </metrics>
+  </project>
+</coverage>

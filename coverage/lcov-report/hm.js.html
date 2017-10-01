@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for hm.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="index.html">All files</a> hm.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>58/58</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>14/14</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>57/57</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-yes">18x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">26654x</span>
+<span class="cline-any cline-yes">26654x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">26653x</span>
+<span class="cline-any cline-yes">96916x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">96916x</span>
+<span class="cline-any cline-yes">96916x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">26653x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">26653x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">14634x</span>
+<span class="cline-any cline-yes">14634x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">14634x</span>
+<span class="cline-any cline-yes">14634x</span>
+<span class="cline-any cline-yes">12322x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">12320x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">14632x</span>
+<span class="cline-any cline-yes">9002x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5630x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1015x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1015x</span>
+<span class="cline-any cline-yes">1015x</span>
+<span class="cline-any cline-yes">1679x</span>
+<span class="cline-any cline-yes">1013x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">666x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11004x</span>
+<span class="cline-any cline-yes">11004x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">11004x</span>
+<span class="cline-any cline-yes">4367x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">6637x</span>
+<span class="cline-any cline-yes">1538x</span>
+<span class="cline-any cline-yes">1538x</span>
+<span class="cline-any cline-yes">1538x</span>
+<span class="cline-any cline-yes">1538x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5099x</span>
+<span class="cline-any cline-yes">5099x</span>
+<span class="cline-any cline-yes">5099x</span>
+<span class="cline-any cline-yes">4848x</span>
+<span class="cline-any cline-yes">463x</span>
+<span class="cline-any cline-yes">463x</span>
+<span class="cline-any cline-yes">463x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4385x</span>
+<span class="cline-any cline-yes">4385x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4636x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">// @flow
+&nbsp;
+class Node {
+  key: string
+  value: any
+  next: ?Node
+&nbsp;
+  constructor(key: string, value: any) {
+    this.key = key
+    this.value = value
+  }
+}
+&nbsp;
+export default class HashMap {
+  size: number
+  memory: Array&lt;?Node&gt;
+  count: number
+  hash: Function
+&nbsp;
+  constructor(size: number): void {
+    this.size = size
+    this.memory = new Array(size)
+    this.count = 0
+  }
+&nbsp;
+  static hash(str: string): number {
+    let hash = 0
+    if (str.length === 0) return hash
+&nbsp;
+    for (let i = 0; i &lt; str.length; i += 1) {
+      const char = str.charCodeAt(i)
+      /* eslint-disable */
+      hash = (hash &lt;&lt; 5) - hash + char
+      hash &amp;= hash
+      /* eslint-enable */
+    }
+    return hash
+  }
+&nbsp;
+  index(key: string): number {
+    return this.constructor.hash(key) % this.size
+  }
+&nbsp;
+  set(key: string, value: any): boolean {
+    const index = this.index(key)
+    const head: ?Node = this.memory[index]
+&nbsp;
+    let curr: ?Node = head
+    while (curr != null) {
+      if (curr.key === key) {
+        curr.value = value
+        return true
+      }
+&nbsp;
+      curr = curr.next
+    }
+&nbsp;
+    if (this.count === this.size) {
+      return false
+    }
+&nbsp;
+    this.count += 1
+    const newNode: Node = new Node(key, value)
+    newNode.next = head
+    this.memory[index] = newNode
+&nbsp;
+    return true
+  }
+&nbsp;
+  get(key: string): ?any {
+    const index = this.index(key)
+&nbsp;
+    let curr = this.memory[index]
+    while (curr != null) {
+      if (curr.key === key) {
+        return curr.value
+      }
+      curr = curr.next
+    }
+&nbsp;
+    return null
+  }
+&nbsp;
+  delete(key: string) {
+    const index = this.index(key)
+    const head = this.memory[index]
+&nbsp;
+    if (head == null) {
+      return null
+    }
+&nbsp;
+    if (head.key === key) {
+      const value = head.value
+      this.memory[index] = head.next
+      this.count -= 1
+      return value
+    }
+&nbsp;
+    let prev = head
+    let curr = head.next
+    while (curr != null) {
+      if (curr.key === key) {
+        prev.next = curr.next
+        this.count -= 1
+        return curr.value
+      }
+      prev = curr
+      curr = curr.next
+    }
+&nbsp;
+    return null
+  }
+&nbsp;
+  load(): number {
+    return this.count / this.size
+  }
+}
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Oct 01 2017 02:36:58 GMT-0400 (EDT)
+</div>
+</div>
+<script src="prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="sorter.js"></script>
+</body>
+</html>

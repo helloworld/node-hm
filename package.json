@@ -1,0 +1,36 @@
+{
+    "name": "node-hm",
+    "version": "1.0.1",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "babel-node src",
+        "build": "rimraf lib && babel src -d lib --ignore .test.js --source-maps inline",
+        "test": "eslint src && flow && yarn build && jest --coverage",
+        "fix": "eslint --fix src"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-eslint": "^8.0.1",
+        "babel-jest": "^21.2.0",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-flow": "^6.23.0",
+        "benchmark": "^2.1.4",
+        "benchtable": "^0.1.0",
+        "cli-table": "^0.3.1",
+        "eslint": "^4.8.0",
+        "eslint-config-airbnb": "^15.1.0",
+        "eslint-plugin-flowtype": "^2.37.0",
+        "eslint-plugin-import": "^2.7.0",
+        "eslint-plugin-jsx-a11y": "^5.1.1",
+        "eslint-plugin-react": "^7.1.0",
+        "flow-bin": "^0.56.0",
+        "jest": "^21.2.1",
+        "rimraf": "^2.6.2",
+        "webpack": "^3.6.0"
+    },
+    "jest": {
+        "mapCoverage": true
+    },
+    "dependencies": {}
+}
