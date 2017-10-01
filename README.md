@@ -1,4 +1,4 @@
-[![npm package](https://nodei.co/npm/node-hm.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/request/)
+[![npm package](https://nodei.co/npm/node-hm.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/node-hm/)
 
 # node-hm
 > A simple implementation of a Hashmap written in JavaScript.
